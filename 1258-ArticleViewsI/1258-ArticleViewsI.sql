@@ -1,0 +1,5 @@
+-- Last updated: 15/09/2025, 19:34:23
+# Write your MySQL query statement below
+select DISTINCT author_id as id from Views
+where author_id = viewer_id
+order by id;
